@@ -84,7 +84,7 @@ impl EventHandler for MainState {
                 graphics::DrawMode::fill(),
                 na::Point2::new(self.game_state.pos_x, self.game_state.pos_y),
                 100.0,
-                2.0,
+                0.1,
                 graphics::WHITE,
             )?;
             graphics::draw(ctx, &circle, (na::Point2::new(0.0, 0.0),))?;

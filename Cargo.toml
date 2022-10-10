@@ -1,7 +1,7 @@
 [package]
-name = "imgui-ggez-starter"
+name = "rustyrobofactory"
 version = "0.1.0"
-authors = ["oliviaifrim"]
+authors = ["ober3550"]
 edition = "2018"
 
 [dependencies]
@@ -11,9 +11,7 @@ gfx_core = "0.9"
 gfx_device_gl = "0.16"
 
 image = "0.21"
-
 imgui = "0.1.0"
 imgui-gfx-renderer = "0.1.0"
-
 
 
